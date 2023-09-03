@@ -1,0 +1,106 @@
+.container{
+    margin-left: 550px;
+    background-color: #1c1c1c;
+    height: 650px;
+    width: 310px;
+    position: relative;
+    padding-left: 30px;
+    border-radius: 30px;
+}
+.result{
+    padding-top: 230px;
+    padding-bottom: 20px;
+    font-size: 60px;
+    color: white;
+    display: flex;
+    justify-content: end;
+    padding-right: 40px;
+}
+.yellow-color{
+    font-size: 25px;
+    background-color: #ff9500;
+    width: 60px;
+    height: 40px;
+    border-radius: 30px;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    font-weight: 900;
+    margin-top: 10px;
+}
+.black-color{
+    font-size: 25px;
+    background-color: #505050;
+    width: 60px;
+    height: 40px;
+    border-radius: 30px;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    font-weight: 800;
+    margin-top: 10px;
+}
+.gray-color{
+    font-size: 25px;
+    background-color: #d4d4d2;
+    width: 60px;
+    height: 40px;
+    border-radius: 30px;
+    color: black;
+    text-align: center;
+    padding-top: 15px;
+    font-weight: 800;
+}
+.first-line{
+    display: flex;
+    flex-direction: row;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+.second-line{
+    display: flex;
+    flex-direction: row;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+.third-line{
+    display: flex;
+    flex-direction: row;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+.fourth-line{
+    display: flex;
+    flex-direction: row;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+.fifth-line{
+    display: flex;
+    flex-direction: row;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+.division{
+    font-size: 25px;
+    background-color: #ff9500;
+    width: 60px;
+    height: 40px;
+    border-radius: 30px;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    font-weight: 900;;
+}
+.zero{
+    font-size: 25px;
+    background-color: #505050;
+    width: 110px;
+    height: 40px;
+    border-radius: 80px;
+    color: white;
+    padding-top: 15px;
+    padding-left: 20px;
+    font-weight: 800;
+    margin-top: 10px;
+}
