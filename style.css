@@ -1,106 +1,59 @@
+body{
+    margin: 0;
+}
 .container{
-    margin-left: 550px;
-    background-color: #1c1c1c;
-    height: 650px;
-    width: 310px;
-    position: relative;
-    padding-left: 30px;
-    border-radius: 30px;
-}
-.result{
-    padding-top: 230px;
-    padding-bottom: 20px;
-    font-size: 60px;
-    color: white;
+    width: 100%;
+    height: 100vh;
     display: flex;
-    justify-content: end;
-    padding-right: 40px;
+    align-items: center;
+    justify-content: center;
+    background-color: #b8d2dd;
+    flex-direction: column;
 }
-.yellow-color{
-    font-size: 25px;
-    background-color: #ff9500;
+.container h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.calculator{
+    background-color: #263f5d;
+    border: 2px solid #333;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.calculator form input{
+    border: 0;
+    outline: 0;
     width: 60px;
-    height: 40px;
-    border-radius: 30px;
-    color: white;
-    text-align: center;
-    padding-top: 15px;
-    font-weight: 900;
-    margin-top: 10px;
+    height: 60px;
+    border-radius: 10px;
+    box-shadow: -4px -4px 15px rgba(255, 255, 255, 0.1),5px 5px 15px rgba(0, 0, 0, 0.2);
+    background: transparent;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    margin: 10px;
+} 
+.calculator form input:hover{
+   font-size: 22px;
 }
-.black-color{
-    font-size: 25px;
-    background-color: #505050;
-    width: 60px;
-    height: 40px;
-    border-radius: 30px;
-    color: white;
-    text-align: center;
-    padding-top: 15px;
-    font-weight: 800;
-    margin-top: 10px;
-}
-.gray-color{
-    font-size: 25px;
-    background-color: #d4d4d2;
-    width: 60px;
-    height: 40px;
-    border-radius: 30px;
-    color: black;
-    text-align: center;
-    padding-top: 15px;
-    font-weight: 800;
-}
-.first-line{
+form .display{
     display: flex;
-    flex-direction: row;
-    row-gap: 10px;
-    column-gap: 10px;
+    justify-content: flex-end;
+    margin: 20px 0;
 }
-.second-line{
-    display: flex;
-    flex-direction: row;
-    row-gap: 10px;
-    column-gap: 10px;
+form .display input {
+    text-align: right;
+    flex: 1;
+    font-size: 45px;
+    box-shadow: none;
 }
-.third-line{
-    display: flex;
-    flex-direction: row;
-    row-gap: 10px;
-    column-gap: 10px;
+form input.equal{
+    width: 145px;
 }
-.fourth-line{
-    display: flex;
-    flex-direction: row;
-    row-gap: 10px;
-    column-gap: 10px;
-}
-.fifth-line{
-    display: flex;
-    flex-direction: row;
-    row-gap: 10px;
-    column-gap: 10px;
-}
-.division{
-    font-size: 25px;
-    background-color: #ff9500;
-    width: 60px;
-    height: 40px;
-    border-radius: 30px;
-    color: white;
-    text-align: center;
-    padding-top: 15px;
-    font-weight: 900;;
-}
-.zero{
-    font-size: 25px;
-    background-color: #505050;
-    width: 110px;
-    height: 40px;
-    border-radius: 80px;
-    color: white;
-    padding-top: 15px;
-    padding-left: 20px;
-    font-weight: 800;
-    margin-top: 10px;
+form input.operator{
+    color: #93e1d8;
 }
